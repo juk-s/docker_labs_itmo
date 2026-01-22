@@ -50,9 +50,6 @@ services:
     networks:
       - demo-network
     restart: unless-stopped
-    # depends_on:
-    #   - prometheus
-    #   - loki
 
   loki:
     image: grafana/loki:3.6.0
